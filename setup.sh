@@ -2,7 +2,7 @@ Live Demo
 #!/bin/sh
 b=0
 
-while [ $b -lt 100 ]
+while [ $b -lt $[ ( $RANDOM % 6 ) + 1 ] ]
 do
 	a=0
 
