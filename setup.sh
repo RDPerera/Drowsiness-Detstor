@@ -6,7 +6,7 @@ while [ $b -lt 10 ]
 do
 	a=0
 
-	while [ $a -lt 100 ]
+	while [ $a -lt 10 ]
 	do
 		echo $[ ( $RANDOM % 100 )  + 1 ]  | tee -a file.txt
 		a=`expr $a + 1`
