@@ -53,3 +53,4 @@ def run():
                         break
         cv2.destroyAllWindows()
         cap.stop()
+run()
