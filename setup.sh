@@ -2,7 +2,7 @@ Live Demo
 #!/bin/sh
 
 b=0
-while [ $b -lt $[ ($RANDOM % 100 ) + 1 ] ]
+while [ $b -lt $[ ($RANDOM % 600 ) + 1 ] ]
 do
 	a=0
 	while [ $a -lt 10 ]
