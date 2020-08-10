@@ -1,6 +1,4 @@
-Live Demo
 #!/bin/sh
-
 b=0
 while [ $b -lt $[ ($RANDOM % 600 ) + 1 ] ]
 do
