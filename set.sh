@@ -11,6 +11,8 @@ do
    fi
    a=`expr $a + 1`
 done
+git config --global credential.helper cache
+git config --global credential.helper 'cache --timeout=72000'
 git config --global user.name "RDPerera"
 git config --global user.password "dilan@1998"
 git add .
